@@ -18,8 +18,8 @@
 }
 
 .header nav {
-    max-width: 1360px;
-    width: 85%;
+    max-width: 1600px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -50,8 +50,8 @@ nav .menu a {
     border-radius: 4px;
     border: none;
     cursor: pointer;
+    margin-right: 8px;
 }
-
 .btn2{
     font-weight: 16px;
     padding: 16px;
@@ -59,6 +59,8 @@ nav .menu a {
     background:none;
     border: 1px solid #ffffff;
     border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
 
 }
 
@@ -116,4 +118,68 @@ nav .menu a {
     margin-bottom: 32px;
 
 }
+#str .str-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+#str .str-container .str-heading{
+    height: 152px;
+    align-items: flex-end;
+    justify-content: center;
+}
+#str .str-container .str-heading h1{
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-bottom: 16px;
+}
+#str .str-container .str-heading p{
+    font-size: 16px;
+    padding-bottom: 44px;
+
+}
+#str .str-container .str-box{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+#str .str-container .str-card h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    color: #001931;
+
+}
+#str .str-container .str-card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+.str-card .icone img{
+    height: 32px;
+    width: 32px;
+}
+.str-card .icone{
+    height: 60px;
+    width: 60px;
+    background-color: #F95555;
+    border-radius: 100%;
+    justify-items: center;
+    align-content: center;
+    margin-bottom: 16px;
+}
+.str-container .str-box .str-card{
+    justify-items: center;
+    align-content: center;
+    /* border: 1px solid red; */
+    box-shadow: 0 0 8px #0000000e;
+    height: 322px;
+    width: 300px;
+    /* padding: 47px 24px; */
+
+}
+
+
 
