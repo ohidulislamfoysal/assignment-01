@@ -251,6 +251,11 @@ nav .menu a {
     padding-top: 80px;
     padding-bottom: 16px;
 }
+#thinkmore .thinkmore-container .thinkmore-cnt-2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 #thinkmore .thinkmore-container p {
     font-size: 16px;
     text-align: center;
