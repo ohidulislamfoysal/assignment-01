@@ -48,7 +48,14 @@ nav .menu a {
     border: none;
     cursor: pointer;
     margin-right: 8px;
+    transition: all 0.3s ease;
 }
+.btn1:hover{
+    background-color: #276941;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px #00000026;
+}
+
 .btn2{
     font-weight: 16px;
     padding: 16px;
@@ -59,6 +66,13 @@ nav .menu a {
     margin-left: 8px;
     cursor: pointer;
 
+}
+.btn2:hover{
+    background-color: #55da18;
+    color: #f0f0f0;
+    border-color: #b6ceb3;
+    box-shadow: 0 0 15px #ffffff66;
+    transform: translateY(-3px);
 }
 
 #banner {
