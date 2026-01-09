@@ -115,10 +115,18 @@ nav .menu a {
     margin-bottom: 32px;
 
 }
+#str{
+    max-width: 1600px;
+    justify-content: center;
+    align-items: center; 
+}
 #str .str-container {
     max-width: 1360px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 #str .str-container .str-heading{
     height: 152px;
@@ -178,5 +186,48 @@ nav .menu a {
 
 }
 
+#solution .solution-container{
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+    padding: 120px 120px;
+    gap: 60px;
+    justify-items: center;
+    align-content: center;
+}
 
+#solution .solution-container .solution-contain{
+    padding: 102px;
+    /* max-width: 700px; */
+}
+#solution .solution-container .solution-contain h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+#solution .solution-container .solution-contain .P1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    padding-bottom: 16px;
+}
+
+#solution .solution-container .solution-contain .P2{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-bottom: 40px;
+}
+#solution .solution-container .solution-contain ul{
+    list-style: none;
+ 
+}
+#solution .solution-container .solution-contain ul li{
+    padding-bottom: 16px;
+}
+#solution .solution-container .solution-contain ul img{
+    vertical-align: middle;
+}
 
