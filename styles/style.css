@@ -230,4 +230,41 @@ nav .menu a {
 #solution .solution-container .solution-contain ul img{
     vertical-align: middle;
 }
+#thinkmore{
+    max-width: 1600px;
+    width: 100%;
+    padding: 2px 120px 120px 120px;
+}
 
+#thinkmore .thinkmore-container{
+    max-width: 1360px;
+    width: 100%;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+}
+
+#thinkmore .thinkmore-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #001931;
+    padding-top: 80px;
+    padding-bottom: 16px;
+}
+#thinkmore .thinkmore-container p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+#thinkmore .thinkmore-container .btn-3{
+    text-align: center;
+    padding-bottom: 16px;
+}
+#thinkmore .thinkmore-container .thinkmore-cnt-2 p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-bottom: 80px;
+}
